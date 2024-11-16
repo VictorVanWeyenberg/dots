@@ -1,0 +1,119 @@
+
+window#waybar.bottom {
+    background: rgba(155, 155, 155, 0);
+    color: #FFFFFF;
+}
+
+window#waybar.top {
+    background: rgba(50, 50, 50, 00);
+    color: #FFFFFF;
+    margin-left: 400px;
+}
+
+tooltip {
+    background: rgba(43, 48, 59, 255);
+}
+
+tooltip label {
+  color: white;
+}
+
+#custom-powermenu,
+#tray,
+#custom-start,
+#pulseaudio,
+#memory,
+#cpu,
+#disk,
+#battery,
+#custom-powermenu,
+#custom-media,
+#network,
+#bluetooth,
+#clock {
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Fira Code Medium", "Font Awesome 6 Free";
+    font-size: 16px;
+}
+
+#custom-gba, #custom-rust {
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Fira Code Medium", "Font Awesome 6 Free";
+    font-size: .8;
+}
+
+#custom-powermenu {
+    font-size: 18;
+    margin-right: 8px;
+}
+
+#taskbar button.active{
+    background: rgba(155, 155, 155, 0.2);
+    border-radius: 20;
+}
+
+#taskbar button:hover{
+    background: rgba(155, 155, 155, 0.2);
+    border-radius: 20;
+}
+
+#window{
+    color: #3E3A2F;
+}
+
+#backlight-slider slider {
+    min-width: 0px;
+}
+
+#backlight-slider trough {
+    min-width: 100px;
+    border-radius: 5px;
+    background-color: gray;
+    border: 0px solid transparent;
+}
+
+#backlight-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: #c23432;
+}
+
+#workspaces {
+    color: white;
+}
+
+#workspaces button {
+    color: white;
+    background-color: transparent;
+}
+
+#workspaces button:hover {
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#workspaces button.active {
+    color: #c23432;
+    background-color: transparent;
+}
+
+#custom-gba {
+    background-image: url("/home/cnpuvache/.config/waybar/assets/no_gba.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#custom-rust {
+    background-image: url("/home/cnpuvache/.config/waybar/assets/ferris.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
