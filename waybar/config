@@ -116,7 +116,10 @@
       "custom/gba",
       "custom/rust"
     ],
-    "modules-right": ["clock"],
+    "modules-right": [
+       "custom/song",
+       "clock"
+    ],
     "height": 20,
     "wlr/taskbar": {
       "format": "{icon}",
@@ -140,6 +143,12 @@
     "clock": {
       "format": "{:%d %b %H:%M}",
       "tooltip": false
+    },
+    "custom/song": {
+      "format": "{}",
+      "exec": "~/.config/waybar/scripts/song.sh",
+      "on-click": "/usr/bin/playerctl -p spotify play-pause",
+      "interval": 1
     }
   }
 ]
